@@ -1,0 +1,39 @@
+[
+  {
+    "key": "ctrl+alt+b",
+    "command": "HookyQR.beautify",
+    "when": "editorFocus"
+  },
+  {
+    "key": "shift+cmd+r",
+    "command": "workbench.action.openRecent"
+  },
+  {
+    "key": " shift+cmd+t",
+    "command": "workbench.action.terminal.new"
+  },
+  {
+    "key": "ctrl+alt+b",
+    "command": "editor.action.formatDocument",
+    "when":
+      "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+shift+w",
+    "command": "editor.action.toggleRenderWhitespace",
+    "when": "editorTextFocus"
+  },
+  { 
+    "key": "cmd+1",           
+    "command": "workbench.view.explorer" 
+  },
+  { 
+    "key": "cmd+2",           
+    "command": "workbench.view.search",
+    "when": "!searchViewletVisible" 
+  },
+  {
+    "key": "cmd+3",
+    "command": "workbench.view.scm"
+  }
+]
