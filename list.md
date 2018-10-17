@@ -1,7 +1,7 @@
 ### Rust:
 * [wasm-bindgen](https://github.com/rustwasm/wasm-bindgen)
 * [gstreamer-rs](https://github.com/sdroege/gstreamer-rs)
-
+* [rodio](https://github.com/tomaka/rodio) - audio playback library (mp3/flac)
 
 ### Node.js/JS:
 * [amqp.node](https://github.com/squaremo/amqp.node) - AMQP 0-9-1 library and client for Node.JS 
