@@ -6,8 +6,13 @@ netstat -ntlp | grep LISTEN
 * List all ports - DETAILS
 ```bash
 sudo netstat -peanut
-
 ```
+
+* Kill process running on port
+```bash
+fuser -k 5000/tcp
+```
+
 * List OS info
 ```bash
 cat /etc/*-release*
